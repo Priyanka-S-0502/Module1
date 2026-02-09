@@ -12,7 +12,19 @@ To write a Python program to check whether the given number is **even** or **odd
 4. End the program.
 
 ## 🧾 Program
+```
+num = int(input())
+
+if num % 11 == 0 and num % 4 == 0:
+    print(f"{num} is divisible by both 11 and 4")
+else:
+    print(f"{num} is NOT divisible by both 11 and 4")
+
+```
 
 ## Output
+<img width="878" height="202" alt="image" src="https://github.com/user-attachments/assets/5db51347-1e3a-4473-9f3a-850036d5be7f" />
+
 
 ## Result
+Thus, the program to check whether a given number is divisible by both 11 and 4 using if-else was executed successfully and the output was verified.
