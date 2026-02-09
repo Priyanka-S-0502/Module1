@@ -15,7 +15,21 @@ To write a Python program that evaluates and prints the results of boolean and a
 8. Print the value of `d` with the label "d:".
 
 ## 💻 Program
-Add Code here
+```
+a = (False == True)
 
+b = (False== 0)
+
+c = False + True
+
+d = False + 5
+print(f"a is {a}")
+print(f"b is {b}")
+print(f"c: {c}")
+print(f"d: {d}")
+```
 ## Output
+<img width="549" height="303" alt="image" src="https://github.com/user-attachments/assets/63520d08-d0e9-4e3c-9056-c9437cb5cd06" />
+
 ## Result
+Thus, the program to evaluate Boolean expressions in Python was executed successfully.
